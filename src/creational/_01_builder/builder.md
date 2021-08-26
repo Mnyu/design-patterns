@@ -1,4 +1,4 @@
-## SUMMARY
+## BUILDER PATTERN - SUMMARY
 
 - A builder is a separate component for building an object.
 - We can either give builder a constructor or return it via a static function.
