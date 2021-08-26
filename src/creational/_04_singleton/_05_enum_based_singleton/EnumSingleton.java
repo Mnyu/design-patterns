@@ -1,4 +1,4 @@
-package creational._04_Singleton._05_enum_based_singleton;
+package creational._04_singleton._05_enum_based_singleton;
 
 public enum EnumSingleton {
     INSTANCE;

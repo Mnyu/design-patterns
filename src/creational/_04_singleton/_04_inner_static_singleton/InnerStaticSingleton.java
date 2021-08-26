@@ -1,4 +1,4 @@
-package creational._04_Singleton._04_inner_static_singleton;
+package creational._04_singleton._04_inner_static_singleton;
 
 public class InnerStaticSingleton {
 

@@ -1,4 +1,4 @@
-package creational._04_Singleton._03_lazy_init_thread_safety;
+package creational._04_singleton._03_lazy_init_thread_safety;
 
 public class LazySingleton {
 

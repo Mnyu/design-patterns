@@ -1,4 +1,4 @@
-package creational._04_Singleton._07_singleton_db.solution;
+package creational._04_singleton._07_singleton_db.solution;
 
 import org.junit.Assert;
 import org.junit.Test;

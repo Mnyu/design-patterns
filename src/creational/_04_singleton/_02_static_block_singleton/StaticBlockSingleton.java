@@ -1,4 +1,4 @@
-package creational._04_Singleton._02_static_block_singleton;
+package creational._04_singleton._02_static_block_singleton;
 
 import java.io.File;
 import java.io.IOException;

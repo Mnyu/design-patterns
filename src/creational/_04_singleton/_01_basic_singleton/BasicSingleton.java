@@ -1,4 +1,4 @@
-package creational._04_Singleton._01_basic_singleton;
+package creational._04_singleton._01_basic_singleton;
 
 public class BasicSingleton {
 

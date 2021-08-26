@@ -1,6 +1,5 @@
-package creational._04_Singleton._07_singleton_db.problem;
+package creational._04_singleton._07_singleton_db.problem;
 
-import creational._04_Singleton._07_singleton_db.problem.RecordFinder;
 import org.junit.Assert;
 import org.junit.Test;
 

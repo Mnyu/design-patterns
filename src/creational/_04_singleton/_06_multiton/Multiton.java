@@ -1,4 +1,4 @@
-package creational._04_Singleton._06_multiton;
+package creational._04_singleton._06_multiton;
 
 import java.util.HashMap;
 

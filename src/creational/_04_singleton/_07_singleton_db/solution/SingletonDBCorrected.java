@@ -1,6 +1,7 @@
-package creational._04_Singleton._07_singleton_db.problem;
+package creational._04_singleton._07_singleton_db.solution;
 
 import com.google.common.collect.Iterables;
+import creational._04_singleton._07_singleton_db.problem.SingletonDB;
 
 import java.io.File;
 import java.nio.file.Files;
@@ -10,13 +11,12 @@ import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
 
-public class SingletonDB {
-
+public class SingletonDBCorrected implements Database {
     private static int instanceCount = 0;
-    private static final SingletonDB INSTANCE = new SingletonDB();
+    private static final SingletonDBCorrected INSTANCE = new SingletonDBCorrected();
     private Map<String, Integer> capitals = new HashMap<>();
 
-    private SingletonDB() {
+    private SingletonDBCorrected() {
         instanceCount++;
         System.out.println("Initializing DB...");
         try {
@@ -30,7 +30,7 @@ public class SingletonDB {
         }
     }
 
-    public static SingletonDB getInstance() {
+    public static SingletonDBCorrected getInstance() {
         return INSTANCE;
     }
 
@@ -42,24 +42,20 @@ public class SingletonDB {
         return capitals.get(name);
     }
 }
-// This is a demo of creating an in-memory db (data from file) singleton class.
 
-// WHAT EXACTLY IS WRONG WITH THIS?
-// Imaging we have RecordFinder class that calculates total population of specified cities.
-// The way to implement that is below but the problem is with testing that class. It requires a live db.
-// The problem here is, we are testing with live db - capitals.txt, and we need to know data from live db,
-// rather, for unit test we should be using dummy data. This actually is like an integration test.
+class RecordFinderCorrected {
+    private Database database;
 
-// SOLUTION :
+    public RecordFinderCorrected(Database database) {
+        this.database = database;
+    }
 
-class RecordFinder {
     public int getTotalPopulation(List<String> names) {
         int population = 0;
         for (String name : names) {
-            population += SingletonDB.getInstance().getPopulation(name); // This is causing problem in unit testing.
+            population += database.getPopulation(name); // Abstraction(Interface) is used instead of concrete class
+            // We can now mimic this database with dummy data.
         }
         return population;
     }
 }
-
-// Test in SingletonDBTest class
