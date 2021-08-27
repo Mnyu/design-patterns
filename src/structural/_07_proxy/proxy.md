@@ -14,7 +14,8 @@
 - Other types : *Logging, Virtual, Guarding etc.*
 
 ### PROXY :
-    A class that functions as an interface to a particular resource. That resource may be remote, expensive to construct, or may require logging or some other added functionality. 
+    A class that functions as an interface to a particular resource. 
+    That resource may be remote, expensive to construct, or may require logging or some other added functionality. 
 
 ### SUMMARY
 
