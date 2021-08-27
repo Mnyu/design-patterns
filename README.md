@@ -8,3 +8,4 @@
 
 * ### STRUCTURAL DESIGN PATTERNS
     #### 1. [Adpater](https://github.com/Mnyu/design-patterns/blob/main/src/structural/_01_adapter/adapter.md)
+    #### 2. [Bridge](https://github.com/Mnyu/design-patterns/blob/main/src/structural/_02_bridge/bridge.md)
