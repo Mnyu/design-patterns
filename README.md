@@ -16,13 +16,13 @@
   - Concerned with the structure of object(e.g. class members).
   - Many patterns are wrappers that mimic the underlying class' interface.
   - Stress the importance of good API design.
-      #### 1. [Adpater](https://github.com/Mnyu/design-patterns/blob/main/src/_01_structural/_01_adapter/adapter.md)
-      #### 2. [Bridge](https://github.com/Mnyu/design-patterns/blob/main/src/_01_structural/_02_bridge/bridge.md)
-      #### 3. [Composite](https://github.com/Mnyu/design-patterns/blob/main/src/_01_structural/_03_composite/composite.md)
-      #### 4. [Decorator](https://github.com/Mnyu/design-patterns/blob/main/src/_01_structural/_04_decorator/decorator.md)
-      #### 5. [Facade](https://github.com/Mnyu/design-patterns/blob/main/src/_01_structural/_05_facade/facade.md)
-      #### 6. [Flyweight](https://github.com/Mnyu/design-patterns/blob/main/src/_01_structural/_06_flyweight/flyweight.md)
-      #### 7. [Proxy](https://github.com/Mnyu/design-patterns/blob/main/src/_01_structural/_07_proxy/proxy.md)
+      #### 1. [Adpater](https://github.com/Mnyu/design-patterns/blob/main/src/_02_structural/_01_adapter/adapter.md)
+      #### 2. [Bridge](https://github.com/Mnyu/design-patterns/blob/main/src/_02_structural/_02_bridge/bridge.md)
+      #### 3. [Composite](https://github.com/Mnyu/design-patterns/blob/main/src/_02_structural/_03_composite/composite.md)
+      #### 4. [Decorator](https://github.com/Mnyu/design-patterns/blob/main/src/_02_structural/_04_decorator/decorator.md)
+      #### 5. [Facade](https://github.com/Mnyu/design-patterns/blob/main/src/_02_structural/_05_facade/facade.md)
+      #### 6. [Flyweight](https://github.com/Mnyu/design-patterns/blob/main/src/_02_structural/_06_flyweight/flyweight.md)
+      #### 7. [Proxy](https://github.com/Mnyu/design-patterns/blob/main/src/_02_structural/_07_proxy/proxy.md)
   
 
 * ### BEHAVIOURAL DESIGN PATTERNS
