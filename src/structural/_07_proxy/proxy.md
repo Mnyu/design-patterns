@@ -20,6 +20,6 @@
 
 - A proxy has the same interface as the underlying object.
 - The goal of proxy is to kind of change the behaviour of an object behind the scenes but preserve the interface that everyone is used to.
-- To create a proxy, simply replicate the existing interface of an object
-- Add relevant functionality to refined member functions.
-- Different proxies(communication, logging, caching etc.) have completely different behaviours.
+- To create a proxy, simply replicate the existing interface of an object.
+- Add relevant functionality to redefined member functions.
+- Different proxies(communication, logging, caching, etc.) have completely different behaviours.
