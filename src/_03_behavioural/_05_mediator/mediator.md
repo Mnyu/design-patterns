@@ -14,7 +14,8 @@
 - *Solution* : have them all refer to some central component that facilitates communication. 
 
 ### MEDIATOR :
-    A component that facilitates communication between other components without them necessarily being aware of each other or having direct(reference) access to each other.
+    A component that facilitates communication between other components without them necessarily being aware of 
+    each other or having direct(reference) access to each other.
 
 ### SUMMARY
 
