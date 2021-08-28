@@ -31,3 +31,4 @@
     #### 1. [Chain of Responsibility](https://github.com/Mnyu/design-patterns/blob/main/src/_03_behavioural/_01_chain_of_responsibility/chain-of-responsibility.md)
     #### 2. [Command](https://github.com/Mnyu/design-patterns/blob/main/src/_03_behavioural/_02_command/command.md)
     #### 3. [Interpreter](https://github.com/Mnyu/design-patterns/blob/main/src/_03_behavioural/_03_interpreter/interpreter.md)
+    #### 4. [Iterator](https://github.com/Mnyu/design-patterns/blob/main/src/_03_behavioural/_04_iterator/iterator.md)
