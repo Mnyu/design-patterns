@@ -17,5 +17,5 @@
 
 ### INTERPRETER :
     A component that processes structured text data. 
-    Does so by turning it into separate lexical tokens(LEXING) and the interpreting sequences of these tokens(PARSING).
+    Does so by turning it into separate lexical tokens(LEXING) and then interpreting sequences of these tokens(PARSING).
     
