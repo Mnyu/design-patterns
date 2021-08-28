@@ -33,3 +33,4 @@
     #### 3. [Interpreter](https://github.com/Mnyu/design-patterns/blob/main/src/_03_behavioural/_03_interpreter/interpreter.md)
     #### 4. [Iterator](https://github.com/Mnyu/design-patterns/blob/main/src/_03_behavioural/_04_iterator/iterator.md)
     #### 5. [Mediator](https://github.com/Mnyu/design-patterns/blob/main/src/_03_behavioural/_05_mediator/mediator.md)
+    #### 6. [Memento](https://github.com/Mnyu/design-patterns/blob/main/src/_03_behavioural/_06_memento/memento.md)
