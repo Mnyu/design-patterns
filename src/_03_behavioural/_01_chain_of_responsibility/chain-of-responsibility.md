@@ -25,14 +25,14 @@
  
 
 ### CHAIN OF RESPONSIBILITY :
-    A chain of components  whol all get a chance 
+    A chain of components who all get a chance : 
         i. to process a comamnd or query,
         ii. optionally having default processing implementation and
         iii. an ability to terminate the processing chain.
 
 ### SUMMARY
 
-- Chain of Responsibility can be implemented as 
+- Chain of Responsibility can be implemented as :
 
   - a chain of references(chain the method calls) or
   - a centralized construct (like the event broker)
