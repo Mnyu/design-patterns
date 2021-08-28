@@ -28,3 +28,4 @@
 * ### BEHAVIOURAL DESIGN PATTERNS
 
   - Generally there are all different and have no central theme. 
+    #### 1. [Chain of Responsibility](https://github.com/Mnyu/design-patterns/blob/main/src/_03_behavioural/_01_chain_of_responsibility/chain-of-responsibility.md)
