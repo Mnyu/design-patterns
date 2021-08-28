@@ -1,6 +1,6 @@
 ## COMMAND PATTERN
 
-## MOTIVATION
+### MOTIVATION
 
 - Ordinary Java statements are perishable.
 

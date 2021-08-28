@@ -1,6 +1,6 @@
 ## PROXY PATTERN
 
-## MOTIVATION
+### MOTIVATION
 - You are calling ```foo.bar()```.
 - This assumes that ```foo``` is in the same process as ```bar()```
 - What if, later on, you want to put all ```foo``` related operations into a separate process

@@ -1,6 +1,6 @@
 ## CHAIN OF RESPONSIBILITY PATTERN
 
-## MOTIVATION
+### MOTIVATION
 
 - Example 1 : Unethical behaviour by an employee; who takes the blame?
 
