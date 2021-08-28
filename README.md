@@ -34,3 +34,4 @@
     #### 4. [Iterator](https://github.com/Mnyu/design-patterns/blob/main/src/_03_behavioural/_04_iterator/iterator.md)
     #### 5. [Mediator](https://github.com/Mnyu/design-patterns/blob/main/src/_03_behavioural/_05_mediator/mediator.md)
     #### 6. [Memento](https://github.com/Mnyu/design-patterns/blob/main/src/_03_behavioural/_06_memento/memento.md)
+    #### 7. [Null Object](https://github.com/Mnyu/design-patterns/blob/main/src/_03_behavioural/_07_null_object/null-object.md)
