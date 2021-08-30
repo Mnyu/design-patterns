@@ -39,3 +39,5 @@
     #### 9.  [State](https://github.com/Mnyu/design-patterns/blob/main/src/_03_behavioural/_09_state/state.md)
     #### 10. [Strategy](https://github.com/Mnyu/design-patterns/blob/main/src/_03_behavioural/_10_strategy/strategy.md)
     #### 11. [Template](https://github.com/Mnyu/design-patterns/blob/main/src/_03_behavioural/_11_template/template.md)
+    #### 12. [Visitor](https://github.com/Mnyu/design-patterns/blob/main/src/_03_behavioural/_12_visitor/visitor.md)
+  
