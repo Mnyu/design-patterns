@@ -15,5 +15,5 @@ public class EventsDemo {
 // TAKEAWAY :
 // ==================
 // Instead of forcing classes to implement Observer<T> and Observable<T> as shown in basic example,
-// better to use Event - which is nothing but a container of subscriptions and to fire event, go through all
+// better to use Events - which is nothing but a container of subscriptions and to fire event, go through all
 // subscriptions and fire each and let the handlers receive the arguments and do something with them.

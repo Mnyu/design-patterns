@@ -24,5 +24,5 @@ public class Event<Args> {
         }
     }
 }
-// Event class is going to notify us on queries. (Idea of command query separation)
+// Events class is going to notify us on queries. (Idea of command query separation)
 // Here we will have an ability to subscribe to an event, unsubscribe to an event and fire an event
