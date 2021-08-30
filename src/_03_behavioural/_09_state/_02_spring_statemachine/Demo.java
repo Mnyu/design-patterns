@@ -52,39 +52,39 @@ public class Demo {
     }
 
     public static void main(String[] args) throws Exception {
-        StateMachine<States, Events> machine = buildMachine();
-        machine.start();
-
-        States exitState = States.ON_HOOK;
-        BufferedReader console = new BufferedReader(new InputStreamReader(System.in));
-        while (true) {
-            State<States, Events> state = machine.getState();
-            System.out.println("The phone is currently " + state.getId());
-
-            System.out.println("Select a trigger : ");
-            List<Transition<States, Events>> ts = machine.getTransitions().stream().filter(t -> t.getSource() == state).collect(Collectors.toList());
-            for (int i = 0; i < ts.size(); i++) {
-                System.out.println("" + i + ". " + ts.get(i).getTrigger().getEvent());
-            }
-            boolean parseOk;
-            int choice = 0;
-            do {
-                try {
-                    System.out.println("Please enter your choice:");
-                    choice = Integer.parseInt(console.readLine());
-                    parseOk = choice >= 0 && choice < ts.size();
-                } catch (Exception e) {
-                    parseOk = false;
-                }
-            } while (!parseOk);
-
-            //perform transition
-            machine.sendEvent(ts.get(choice).getTrigger().getEvent());
-
-            if (machine.getState().getId() == exitState) {
-                break;
-            }
-        }
-        System.out.println("And we are done!");
+//        StateMachine<States, Events> machine = buildMachine();
+//        machine.start();
+//
+//        States exitState = States.ON_HOOK;
+//        BufferedReader console = new BufferedReader(new InputStreamReader(System.in));
+//        while (true) {
+//            State<States, Events> state = machine.getState();
+//            System.out.println("The phone is currently " + state.getId());
+//
+//            System.out.println("Select a trigger : ");
+//            List<Transition<States, Events>> ts = machine.getTransitions().stream().filter(t -> t.getSource() == state).collect(Collectors.toList());
+//            for (int i = 0; i < ts.size(); i++) {
+//                System.out.println("" + i + ". " + ts.get(i).getTrigger().getEvent());
+//            }
+//            boolean parseOk;
+//            int choice = 0;
+//            do {
+//                try {
+//                    System.out.println("Please enter your choice:");
+//                    choice = Integer.parseInt(console.readLine());
+//                    parseOk = choice >= 0 && choice < ts.size();
+//                } catch (Exception e) {
+//                    parseOk = false;
+//                }
+//            } while (!parseOk);
+//
+//            //perform transition
+//            machine.sendEvent(ts.get(choice).getTrigger().getEvent());
+//
+//            if (machine.getState().getId() == exitState) {
+//                break;
+//            }
+//        }
+//        System.out.println("And we are done!");
     }
 }
