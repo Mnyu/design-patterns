@@ -17,10 +17,10 @@
 - Bridge pattern avoids the entity explosion.
 
 #### Problem
-![Before](https://github.com/Mnyu/design-patterns/blob/main/src/structural/_02_bridge/before.png)
+![Before](https://github.com/Mnyu/design-patterns/blob/main/src/_02_structural/_02_bridge/before.png)
 
 #### Solution
-![After](https://github.com/Mnyu/design-patterns/blob/main/src/structural/_02_bridge/after.png)
+![After](https://github.com/Mnyu/design-patterns/blob/main/src/_02_structural/_02_bridge/after.png)
 
 
 ### BRIDGE :
